@@ -19,8 +19,20 @@ public class Matematika {
         this.bil2 = bil2;
     }
     
-    //method accessor
+    //method set penjumlahan
     double setPenjumlahan() {
         return bil1 + bil2;
+    }
+        //method set pengurangan
+    double setPengurangan() {
+        return bil1 - bil2;
+    }
+        //method set perkalian
+    double setPerkalian() {
+        return bil1 * bil2;
+    }
+         //method set pembagian
+    double setPembagian() {
+        return bil1 / bil2;
     }
 }
